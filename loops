@@ -1,0 +1,39 @@
+postres = ["helado", "pastel", "churros", "pie de manzana"]
+
+for i in postres:
+    print("Me gusta comer", i)
+
+
+count = 0
+
+while count < len(postres):
+    print("I like this dessert", postres[count])
+    count += 1
+
+
+for idx, i in enumerate(postres):
+    print(idx, i)
+
+
+
+
+#Starter Code
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+
+for dessert in favorites:
+    if dessert == 'Pudding':
+        print('Yes one of my favorite desserts is', dessert)
+        break 
+else:
+    print('No sorry, not a dessert on my list')
+
+
+list_nums = [4,9,2,6]
+count = 0
+for value in list_nums:
+    print('valor: ', value)
+    #count += 1
+    print('countador antes: ', count)
+    count = count + 1
+    print('countador despues: ', count)
+    print('\n')
